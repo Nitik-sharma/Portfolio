@@ -60,7 +60,7 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-  margin-top: 20%;
+  margin-top: 15%;
   font-size: 30px;
 }
 
@@ -72,14 +72,19 @@ nav ul li a:hover::after {
   color: #ff004f;
 }
 .icon {
-  margin-top: 40px;
+  margin-top: 25px;
 }
 
 .icon a {
-  font-size: 30px;
-  margin-left: 10px;
-  color: #ff004f;
+  margin-left: 20px;
+  color: #352cadd2;
+  font-size: 36px;
 }
+.icon a:hover {
+  color: #ff004f;
+  transition: 0.9s;
+}
+
 nav .fa-solid {
   display: none;
 }
