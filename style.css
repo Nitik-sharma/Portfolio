@@ -79,3 +79,53 @@ nav ul li a:hover::after {
   font-size: 30px;
   margin-left: 10px;
 }
+nav .fa-solid {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 200px;
+    height: 50px;
+    background: none;
+  }
+  #header {
+    background-image: url("image/mobpic.jpg");
+  }
+  .header-text {
+    font-size: 16px;
+  }
+  .header-text h1 {
+    font-size: 30px;
+  }
+  nav .fa-solid {
+    display: block;
+    font-size: 25px;
+  }
+  nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0px;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 2s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  nav .fa-xmark {
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  nav .fa-bars {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+  }
+}
